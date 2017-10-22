@@ -1,2 +1,26 @@
+/*  @import Bootstrap 4 Beta and Custom Partials */
+
 @import "custom";
-@import "~bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/*  Enjoy using SCSS */
+
+.btn {
+    cursor: pointer !important;
+}
+
+.card {
+    width: 75% !important;
+    margin: 7% auto;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+    .card-header {
+        border: none !important;
+        text-align: center !important;
+    }
+    input {
+        background: none !important;
+        border: 1px solid #fff;
+        color: #fff !important;
+    }
+}

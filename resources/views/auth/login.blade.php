@@ -4,7 +4,7 @@
 <div class="container pt-5">
     <div class="pt-3">
         <div class="card card-default">
-            <div class="card-header text-dark">Login</div>
+            <div class="card-header">Login User</div>
 
             <div class="card-body">
                 <form class="form-horizontal" method="POST" action="{{ route('login') }}">
